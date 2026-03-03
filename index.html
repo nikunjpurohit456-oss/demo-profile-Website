@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- SEO Optimization -->
+<title>StreetView Agency | Digital Marketing for Local Businesses</title>
+<meta name="description" content="StreetView Agency helps local businesses grow online with social media marketing, ads, websites, and SEO. Get more customers today.">
+<meta name="keywords" content="Digital Marketing Agency, Local Business Marketing, Social Media Marketing, Google Ads, Website Development">
+<meta name="author" content="StreetView Agency">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:'Poppins',sans-serif;scroll-behavior:smooth;}
+body{background:#0e0e0e;color:#fff;overflow-x:hidden;}
+header{display:flex;justify-content:space-between;align-items:center;padding:20px 10%;background:#111;position:fixed;width:100%;z-index:1000;}
+header h1{color:#00ffae;}
+nav a{color:#fff;text-decoration:none;margin-left:25px;transition:0.3s;}
+nav a:hover{color:#00ffae;}
+
+section{padding:100px 10%;text-align:center;}
+
+.hero{height:100vh;display:flex;flex-direction:column;justify-content:center;align-items:center;background:linear-gradient(135deg,#000,#111);}
+.hero h2{font-size:50px;margin-bottom:20px;animation:fadeDown 1s ease;}
+.hero p{max-width:600px;color:#ccc;margin-bottom:30px;animation:fadeUp 1.2s ease;}
+.btn{padding:15px 30px;background:#00ffae;color:#000;text-decoration:none;font-weight:600;border-radius:30px;transition:0.3s;}
+.btn:hover{background:#fff;}
+
+.services,.portfolio{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:30px;}
+.card{background:#1a1a1a;padding:30px;border-radius:15px;transition:0.3s;}
+.card:hover{transform:translateY(-10px);background:#222;}
+
+.portfolio img{width:100%;border-radius:10px;}
+
+.testimonials{position:relative;max-width:600px;margin:auto;}
+.testimonial{display:none;}
+.testimonial.active{display:block;animation:fadeIn 0.8s;}
+.testimonial p{font-style:italic;color:#ccc;}
+.testimonial h4{margin-top:15px;color:#00ffae;}
+
+form{max-width:500px;margin:auto;display:flex;flex-direction:column;gap:15px;}
+input,textarea{padding:15px;border:none;border-radius:8px;}
+button{padding:15px;background:#00ffae;border:none;border-radius:30px;font-weight:bold;cursor:pointer;}
+
+footer{background:#111;padding:30px;text-align:center;color:#aaa;}
+
+.whatsapp{
+position:fixed;
+bottom:20px;
+right:20px;
+background:#25D366;
+color:#fff;
+padding:15px 18px;
+border-radius:50%;
+font-size:22px;
+text-decoration:none;
+box-shadow:0 0 10px rgba(0,0,0,0.4);
+}
+
+@keyframes fadeDown{from{opacity:0;transform:translateY(-40px);}to{opacity:1;transform:translateY(0);}}
+@keyframes fadeUp{from{opacity:0;transform:translateY(40px);}to{opacity:1;transform:translateY(0);}}
+@keyframes fadeIn{from{opacity:0;}to{opacity:1;}}
+
+@media(max-width:768px){
+.hero h2{font-size:32px;}
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>StreetView</h1>
+<nav>
+<a href="#services">Services</a>
+<a href="#portfolio">Portfolio</a>
+<a href="#testimonials">Testimonials</a>
+<a href="#contact">Contact</a>
+</nav>
+</header>
+
+<section class="hero">
+<h2>Grow Your Local Business Online 🚀</h2>
+<p>We help local brands get more customers through ads, websites, SEO & social media marketing.</p>
+<a href="#contact" class="btn">Book Free Consultation</a>
+</section>
+
+<section id="services">
+<h2 style="color:#00ffae;margin-bottom:50px;">Our Services</h2>
+<div class="services">
+<div class="card"><h3>Social Media</h3><p>Content & growth strategies that convert followers into customers.</p></div>
+<div class="card"><h3>Performance Ads</h3><p>High converting Facebook & Google Ads campaigns.</p></div>
+<div class="card"><h3>Website Development</h3><p>Premium business websites that build trust & generate leads.</p></div>
+<div class="card"><h3>Local SEO</h3><p>Rank your business on Google & attract organic traffic.</p></div>
+</div>
+</section>
+
+<section id="portfolio">
+<h2 style="color:#00ffae;margin-bottom:50px;">Our Work</h2>
+<div class="portfolio">
+<div class="card"><img src="https://via.placeholder.com/400x250"><p>Restaurant Marketing Campaign</p></div>
+<div class="card"><img src="https://via.placeholder.com/400x250"><p>Clinic Website Project</p></div>
+<div class="card"><img src="https://via.placeholder.com/400x250"><p>Local Store Ads Strategy</p></div>
+</div>
+</section>
+
+<section id="testimonials">
+<h2 style="color:#00ffae;margin-bottom:40px;">What Clients Say</h2>
+<div class="testimonials">
+<div class="testimonial active">
+<p>"StreetView helped us double our monthly customers!"</p>
+<h4>- Local Restaurant Owner</h4>
+</div>
+<div class="testimonial">
+<p>"Our website looks premium and we get daily inquiries."</p>
+<h4>- Clinic Manager</h4>
+</div>
+<div class="testimonial">
+<p>"Best marketing agency for local businesses."</p>
+<h4>- Store Owner</h4>
+</div>
+</div>
+</section>
+
+<section id="contact">
+<h2 style="color:#00ffae;margin-bottom:40px;">Contact Us</h2>
+
+<form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+<input type="text" name="name" placeholder="Your Name" required>
+<input type="email" name="email" placeholder="Your Email" required>
+<textarea name="message" rows="5" placeholder="Your Message"></textarea>
+<button type="submit">Send Message</button>
+</form>
+
+</section>
+
+<footer>
+© 2026 StreetView Agency | All Rights Reserved
+</footer>
+
+<a href="https://wa.me/919000000000" class="whatsapp" target="_blank">💬</a>
+
+<script>
+let index=0;
+const testimonials=document.querySelectorAll(".testimonial");
+setInterval(()=>{
+testimonials[index].classList.remove("active");
+index=(index+1)%testimonials.length;
+testimonials[index].classList.add("active");
+},3000);
+</script>
+
+</body>
+</html>
